@@ -1,27 +1,32 @@
-:root{
+:root {
     --item: 2%;
 
 }
+
 @font-face {
     font-family: 'Montserrat Alternates';
     src: url('ofont.ru_Montserrat\ Alternates.ttf');
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 .photo {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
+
 .photo img {
     border-radius: 15px;
 }
+
 body {
-  font-family: 'Montserrat Alternates';
-  color: #000000;
-  background-color: #f4f4f4;
+    font-family: 'Montserrat Alternates';
+    color: #000000;
+    background-color: #f4f4f4;
 }
 
 h1 {
@@ -29,28 +34,30 @@ h1 {
 }
 
 .info {
-    
-    margin-top:20px;
-    margin-bottom: 20px;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: center;
     display: flex;
     justify-content: center;
-    font-size: 18px; 
+    font-size: 1.2rem;
     gap: 20px;
 
 }
 
 .container {
-    padding: 2rem ;
-    width: calc(80% + var(--item));
-    margin: auto ;
-    background-color: aliceblue;
+    padding: 2rem;
+    width: calc(70% + var(--item));
+    margin: auto;
+    background-color: rgb(186, 215, 240);
     border-radius: 1em;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 .about_me {
-  padding: 15px 10px;
-  font-size: large;
+    margin: auto;
+    width: 70%;
+    padding: 10px 10px;
+    font-size: 1.5rem;
 }
