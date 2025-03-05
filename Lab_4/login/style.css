@@ -1,0 +1,65 @@
+body {
+    font-family: 'Golos', sans-serif ;
+}
+
+.image-block {
+    width: 461px;
+    height: 501px;
+    position: relative;
+    top: 289px;
+    left: 269px;
+}
+
+.enter {
+    height: 180px;
+    position: absolute;
+    top:-182px;
+    left:-179px;
+}
+
+h1 {
+    font-size: 140px;
+    line-height: 180px;
+}
+
+.form-block {
+    width: 343px;
+    height: 251px;
+    position: absolute;
+    top: 415px;
+    left: 838px;
+}
+
+.form-block form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-block p {
+    margin: 0;
+}
+
+.form-block form input {
+    box-sizing: border-box;
+    height: 44px;
+    width: 343px;
+    border: none;
+    outline: none;
+    background-color: #F2F3F5;
+    border-radius: 10px;
+    padding: 13px 12px;
+}
+
+.form-block button {
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    background-color: #222222;
+    color: white;
+}
+
+.password-block {
+    position: relative;
+}
+
