@@ -1,0 +1,52 @@
+span, button, p {
+    font-family: 'Golos', sans-serif;
+}
+
+.post-author span {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.post-author img {
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.post-header button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.post-main .reaction {
+    border: none;
+    border-radius: 8px;
+    background-color: #2222220D;
+    padding: 6px 12px;
+
+}
+
+.post-main .reaction span {
+    font-size: 15px;
+    color: #222222;
+}
+
+.post-main .description{
+    line-height: 18px;
+    font-size: 15px;
+    color: #222222;
+}
+
+.post-main button {
+    border: none;
+    background-color: white;
+    color: #808080;
+    cursor: pointer;
+}
+
+.post-main p {
+    font-size: 14px;
+    color: #22222280;
+}
+

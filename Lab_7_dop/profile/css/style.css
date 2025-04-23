@@ -1,0 +1,43 @@
+img {
+    object-fit: cover;
+}
+
+p, span {
+    font-family: 'Golos', sans-serif;
+    color: #222222;
+}
+
+.posts img {
+    width: 322px;
+    height: 322px;
+    border-radius: 2px;
+}
+
+.user-info img {
+    border-radius: 16px;
+    width: 123px;
+    height: 123px;
+}
+
+.user-info .user_name {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.user-info .user_description {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.count-posts {
+    width: fit-content;
+    padding: 6px 10px;
+    border-radius: 6px;
+    background-color: #F2F3F5;
+}
+
+.count-posts span {
+    font-size: 15px;
+}

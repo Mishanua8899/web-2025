@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Ваня Денисов",
+    "description": "Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!",
+    "email": "Vanya@gmail.com",
+    "age": 18,
+    "img_src": "src/user_icon.jpg",
+    "date_of_creation": 1737351000
+  },
+  {
+    "id": 2,
+    "name": "Лиза Демина",
+    "description": "bez nadejdi",
+    "email": "Liza@gmail.com",
+    "age": 25,
+    "img_src": "src/user_icon_2.jpg",
+    "date_of_creation": 1676792400 
+  },
+  {
+    "id": 3,
+    "name": "Bill",
+    "description": "21 21 21",
+    "email": "Bill@gmail.com",
+    "age": 20,
+    "img_src": "src/user_icon.jpg",
+    "date_of_creation": 1626684000  
+  } 
+]

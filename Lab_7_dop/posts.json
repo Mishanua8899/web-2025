@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "content": "Так красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне, в городке, занесенном снегом по ручку двери...»",
+    "img_src": "src/post_image_1.jpg",
+    "date_of_creation": 1752917420 
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "content": "Язььььь",
+    "img_src": "src/post_image_2.jpg",
+    "date_of_creation": 1752916420  
+  },
+  {
+    "id": 1,
+    "user_id": 2,
+    "content": "Как у вас дела?",
+    "img_src": "src/post_image_9.jpg",
+    "date_of_creation": 1676802400
+  },
+  {
+    "id": 1,
+    "user_id": 3,
+    "content": "Почему ВСЕ ТАК СЛОЖНО",
+    "img_src": "src/post_image_7.jpg",
+    "date_of_creation": 1676802400
+  }
+]

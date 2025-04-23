@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "John",
+    "email": "John@gmail.com",
+    "age": 18,
+    "date_of_creation": 1737351000
+  },
+  {
+    "id": 2,
+    "name": "Gunter",
+    "email": "Gunter@gmail.com",
+    "age": 25,
+    "date_of_creation": 1676792400 
+  },
+  {
+    "id": 3,
+    "name": "Bill",
+    "email": "Bill@gmail.com",
+    "age": 20,
+    "date_of_creation": 1626684000  
+  } 
+]

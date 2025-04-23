@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+span, button, p {
+    font-family: 'Golos', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.container__icon-menu {
+    position: fixed;
+    margin-top: 40px;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.icon-menu__wrapper {
+    position: relative;
+}
+
+.icon-menu__wrapper::after {
+    content: "";
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #222222;
+}
+
+.container__icon-menu .icon {
+    width: 24px;
+    height: 24px;
+} 
+
+.container__posts {
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.post__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.post__author {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    width: 474px;
+}
+
+
+
+.post__author .author__name {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.post__img {
+    object-fit: cover;
+    border-radius: 5px; 
+}
+
+.post__author .author__icon {
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.post__header .post__edit-button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.post__main .post__reaction {
+    margin: 15px 0; 
+    border: none;
+    border-radius: 8px;
+    background-color: #2222220D;
+    padding: 6px 12px;
+
+}
+
+.post__main .post__reaction .post__like {
+    font-size: 15px;
+    color: #222222;
+}
+
+.post__main .post__description{
+    line-height: 18px;
+    font-size: 15px;
+    color: #222222;
+}
+
+.post__main .post__more-button {
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: none;
+    background-color: white;
+    color: #808080;
+    cursor: pointer;
+}
+
+.post-main .post__date {
+    font-size: 14px;
+    color: #22222280;
+   /* font-family: 'Golos', sans-serif;*/
+}
+

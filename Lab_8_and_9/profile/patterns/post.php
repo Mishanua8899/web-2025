@@ -1,0 +1,1 @@
+<img src=<?php echo $post['img_src'] ?> class="post__img" alt="" srcset="">
